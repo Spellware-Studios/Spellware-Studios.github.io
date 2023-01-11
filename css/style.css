@@ -367,6 +367,8 @@ div.open-overlay {
     height: 50px;
     color: black;
     background:none;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 #btn-arrow:hover{
     background-color: rgb(199, 199, 199);
