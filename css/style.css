@@ -71,7 +71,7 @@ body{
     height: 100vh;
 }
 .logo{
-    padding-bottom: 5%;
+    /*padding-bottom: 5%;*/
     user-drag: none;  
     user-select: none;
     -moz-user-select: none;
@@ -82,13 +82,17 @@ body{
 
 .logo img{
     width: 100%;
-    max-width: 630px;
+    /*max-width: 630px;*/
 }
 
-.logo p{
+.intro-text {
     color: #ffffff;
-    padding-top: 20px;
-    font-style: italic;
+    text-shadow: black 1px 0 10px;
+
+    padding-top: 2em;
+    padding-bottom: 2em;
+    /*padding-top: 20px;*/
+    /*font-style: italic;*/
 }
 
 #demo-canvas{
@@ -353,6 +357,10 @@ div.open-overlay {
     display: flex;
     align-items: center;
 }
+.portfolio-textcontainer h3 {
+    padding-bottom: 1em;
+}
+
 #btn-arrow{
     border-radius: 10px;
     border: none;
@@ -414,6 +422,10 @@ textarea {
 .contact input:focus,.contact textarea:focus,.contact input:active,.contact textarea:active{
     border: 1px solid #000;
     outline: none;
+}
+
+.link {
+    color: rgb(0, 149, 255);
 }
 
 .confirm-message {
